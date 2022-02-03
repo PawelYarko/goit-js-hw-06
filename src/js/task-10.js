@@ -9,9 +9,9 @@ buttonDestroy.addEventListener('click', onButtonDestroyClick);
 let startWidth = 30;
 let starHeight = 30;
 
-const boxes = [
-  {width: startWidth, height: starHeight, hex: getRandomHexColor()},         
-];
+
+const boxes = [];      
+
 
 
 function createElement(boxes){
@@ -25,8 +25,8 @@ function createElement(boxes){
 
 
 function onButtonCreateClick(){
-  console.log();
-  for(let i = 0; i <= inputValue.value; i+=1){                                   //   inputValue.value
+  console.log(inputValue.value);
+  for(let i = 0; i < inputValue.value; i+=1){                                   //   inputValue.value
     startWidth +=10;
     starHeight +=10;
     console.log('width:',startWidth);
