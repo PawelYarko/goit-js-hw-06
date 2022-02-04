@@ -1,6 +1,6 @@
 const input = document.querySelector('#validation-input');
 
-input.addEventListener('input', onInputWrite);
+input.addEventListener('blur', onInputWrite);
 const maxLengthOfInput =  input.dataset.length;
 
 function onInputWrite(e){

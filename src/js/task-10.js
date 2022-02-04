@@ -6,8 +6,8 @@ const boxesElem = document.querySelector('#boxes');
 buttonCreate.addEventListener('click', onButtonCreateClick);
 buttonDestroy.addEventListener('click', onButtonDestroyClick);
 
-let startWidth = 30;
-let starHeight = 30;
+let startWidth = 20;
+let starHeight = 20;
 
 
 const boxes = [];      
